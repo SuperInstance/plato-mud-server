@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: plato-mud-server
+Version: 0.1.0
+Summary: MUD server — text adventure game server
+License: MIT
+Requires-Python: >=3.8
