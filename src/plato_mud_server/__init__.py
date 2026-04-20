@@ -1,5 +1,5 @@
-"""MUD server — text adventure game server.
+"""MUD server — text adventure game server with room navigation and NPCs.
 Part of the PLATO framework."""
-from .core import Mud_server
+from .mud import MudServer, Room, Player, Npc
 __version__ = "0.1.0"
-__all__ = ["Mud_server"]
+__all__ = ["MudServer", "Room", "Player", "Npc"]
