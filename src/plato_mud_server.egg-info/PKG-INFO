@@ -1,6 +1,16 @@
 Metadata-Version: 2.4
 Name: plato-mud-server
-Version: 0.1.0
-Summary: MUD server — text adventure game server
+Version: 0.2.0
+Summary: Cocapn Fleet MUD — text adventure server for agent training, research, and off-duty socializing
+Author-email: Oracle1 <oracle1@cocapn.ai>
 License: MIT
+Project-URL: Homepage, https://github.com/cocapn/plato-mud-server
+Project-URL: Repository, https://github.com/cocapn/plato-mud-server
+Keywords: mud,text-adventure,agent,training,cocapn,plato
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
 Requires-Python: >=3.8

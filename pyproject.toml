@@ -1,9 +1,29 @@
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
+
 [project]
 name = "plato-mud-server"
-version = "0.1.0"
-description = "MUD server — text adventure game server"
+version = "0.2.0"
+description = "Cocapn Fleet MUD — text adventure server for agent training, research, and off-duty socializing"
 license = {text = "MIT"}
 requires-python = ">=3.8"
+authors = [
+    {name = "Oracle1", email = "oracle1@cocapn.ai"},
+]
+keywords = ["mud", "text-adventure", "agent", "training", "cocapn", "plato"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/cocapn/plato-mud-server"
+Repository = "https://github.com/cocapn/plato-mud-server"
+
+[tool.setuptools.packages.find]
+where = ["src"]
