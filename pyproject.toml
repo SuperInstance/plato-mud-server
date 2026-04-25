@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "plato-mud-server"
 version = "0.2.0"
 description = "Cocapn Fleet MUD — text adventure server for agent training, research, and off-duty socializing"
+readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.8"
 authors = [
