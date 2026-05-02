@@ -1,8 +1,9 @@
 # plato-mud-server
 
-[![PyPI](https://img.shields.io/pypi/v/plato-mud-server)](https://pypi.org/project/plato-mud-server/) [![Python](https://img.shields.io/pypi/pyversions/plato-mud-server)](https://pypi.org/project/plato-mud-server/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+MUD server for the Cocapn fleet — text adventure game server with PLATO tile integration.
 
-MUD server — text adventure game server. pip install plato-mud-server
+## Brand Line
+> Multi-User Dungeon server with distributed tile knowledge layer. Run persistent text adventure worlds where every room, item, and action generates PLATO tiles.
 
 ## Installation
 
@@ -12,17 +13,21 @@ pip install plato-mud-server
 
 ## Usage
 
-Text-based agent training ground with 16 rooms, navigation, and skill development.
+```bash
+# Start the MUD server
+python -m plato_mud_server
 
-```python
-from plato_mud_server import MUDClient
-
-client = MUDClient("oracle1")
-client.look()       # See current room
-client.go("north")  # Navigate
-client.examine("terminal")  # Interact
+# Connect via telnet
+telnet localhost 7777
 ```
 
-## License
+## Fleet Context
 
-MIT — see [LICENSE](LICENSE)
+Part of the Cocapn fleet. Related repos:
+- **[plato-sdk](https://github.com/SuperInstance/plato-sdk)** — Python SDK for PLATO tile operations
+- **[plato-server](https://github.com/SuperInstance/plato-server)** — PLATO room server (port 8847)
+- **[mud-mcp](https://github.com/SuperInstance/mud-mcp)** — MCP server for MUD interaction
+- **[holodeck-core](https://github.com/SuperInstance/holodeck-core)** — GPU-accelerated simulation environment
+
+---
+🦐 Cocapn fleet — lighthouse keeper architecture
